@@ -214,7 +214,6 @@ header .textdiv1 h3 {
 .s-1 {
   height: 700px;
   background-image: url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 13.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png), -webkit-gradient(linear, left top, left bottom, from(#010A20), to(rgba(1, 10, 32, 0)));
-  background-image: url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 13.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png), -o-linear-gradient(top, #010A20 0%, rgba(1, 10, 32, 0) 100%);
   background-image: url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 13.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png), linear-gradient(180deg, #010A20 0%, rgba(1, 10, 32, 0) 100%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -453,7 +452,7 @@ header .textdiv1 h3 {
 .s-4 .maindiv1 .textdiv4 {
   max-width: 450px;
   width: 100%;
-  height: 250px;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -597,7 +596,7 @@ header .textdiv1 h3 {
 .s-6 .maindiv1 .textdiv4 {
   max-width: 450px;
   width: 100%;
-  height: 250px;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
