@@ -921,4 +921,40 @@ header .textdiv1 h3 {
 }
 .s-9 .bigdiv .medium .smallbox2 .textbox2 h2 {
   margin-bottom: 13px;
+}
+
+/* SECTION 9 END */
+/* FOOTER START */
+footer nav {
+  max-width: 700px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer nav img {
+  margin-top: 35px;
+}
+footer nav ul {
+  max-width: 650px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 35px;
+}
+footer nav ul li h6 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: white;
 }/*# sourceMappingURL=global.css.map */

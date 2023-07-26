@@ -714,18 +714,46 @@ header{
 
 
 
+/* SECTION 9 END */
+
+
+
+
+/* FOOTER START */
 
 
 
 
 
+footer{
+    
+    nav{
+        max-width: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            margin-top: 35px;
+        }
+        ul{
+            max-width: 650px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 35px;
+            li{
+                h6{
+                    font-family: $myfont1;
+                    font-size: 18px;
+                    color: white;
 
-
-
-
-
-
-
+                }
+            }
+        }
+    }
+}
 
 
 
