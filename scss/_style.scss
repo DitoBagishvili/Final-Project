@@ -1,6 +1,6 @@
 
 
-header{
+.head1{
     height: 700px;
     background-image: url(../images/wyaltubo.jpg);
     background-repeat: no-repeat;
@@ -762,24 +762,40 @@ footer{
 
 
 
+/* PAGE 2 STARTS HERE */
 
 
 
 
 
+.head2{
 
+    .pnav{
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 10;
+        background-color: rgba(0,0,0, .5);
 
+        .pul{
+            width: 75%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            .pli{
+                a{
+                    font-family: $myfont1;
+                    font-size: 18px;
+                    color: white;
+                    text-align: center;
 
-
-
-
-
-
-
-
-
-
-
+                }
+            }
+        }
+    }
+}
 
 
 
