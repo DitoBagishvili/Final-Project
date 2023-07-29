@@ -284,6 +284,7 @@ header .textdiv1 h3 {
   background-size: cover;
 }
 .s-2 .maindiv1 {
+  padding: 10px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -356,6 +357,7 @@ header .textdiv1 h3 {
   background-size: cover;
 }
 .s-3 .maindiv1 {
+  padding: 10px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -430,6 +432,7 @@ header .textdiv1 h3 {
 }
 .s-4 .maindiv {
   margin: auto;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,6 +505,7 @@ header .textdiv1 h3 {
   background-size: cover;
 }
 .s-5 .maindiv {
+  padding: 10px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -575,6 +579,7 @@ header .textdiv1 h3 {
   background-size: cover;
 }
 .s-6 .maindiv1 {
+  padding: 10px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -649,6 +654,7 @@ header .textdiv1 h3 {
   background-size: cover;
 }
 .s-7 .maindiv {
+  padding: 10px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
