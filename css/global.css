@@ -229,7 +229,7 @@ header .textdiv1 h3 {
 .s-1 .maindiv .textdiv2 {
   max-width: 450px;
   width: 100%;
-  height: 250px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -264,10 +264,9 @@ header .textdiv1 h3 {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 50px;
-  position: relative;
   width: 211px;
-  height: 52px;
-  top: 33px;
+  height: 30px;
+  padding: 30px;
   text-align: center;
   background-color: rgb(255, 70, 70);
 }
@@ -302,7 +301,7 @@ header .textdiv1 h3 {
 .s-2 .maindiv1 .textdiv4 {
   max-width: 450px;
   width: 100%;
-  height: 250px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,10 +336,9 @@ header .textdiv1 h3 {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 50px;
-  position: relative;
   width: 211px;
-  height: 52px;
-  top: 33px;
+  height: 30px;
+  padding: 30px;
   text-align: center;
   background-color: rgb(255, 70, 70);
 }
@@ -375,7 +373,7 @@ header .textdiv1 h3 {
 .s-3 .maindiv1 .textdiv4 {
   max-width: 450px;
   width: 100%;
-  height: 250px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,8 +410,8 @@ header .textdiv1 h3 {
   border-radius: 50px;
   position: relative;
   width: 211px;
-  height: 52px;
-  top: 33px;
+  height: 30px;
+  padding: 30px;
   text-align: center;
   background-color: rgb(255, 70, 70);
 }
@@ -448,7 +446,7 @@ header .textdiv1 h3 {
 .s-4 .maindiv .textdiv4 {
   max-width: 450px;
   width: 100%;
-  height: 270px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -485,8 +483,8 @@ header .textdiv1 h3 {
   border-radius: 50px;
   position: relative;
   width: 211px;
-  height: 52px;
-  top: 33px;
+  height: 30px;
+  padding: 30px;
   text-align: center;
   background-color: rgb(255, 70, 70);
 }
@@ -521,7 +519,7 @@ header .textdiv1 h3 {
 .s-5 .maindiv .textdiv4 {
   max-width: 450px;
   width: 100%;
-  height: 250px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -558,8 +556,8 @@ header .textdiv1 h3 {
   border-radius: 50px;
   position: relative;
   width: 211px;
-  height: 52px;
-  top: 33px;
+  height: 30px;
+  padding: 30px;
   text-align: center;
   background-color: rgb(255, 70, 70);
 }
@@ -631,7 +629,8 @@ header .textdiv1 h3 {
   border-radius: 50px;
   position: relative;
   width: 211px;
-  height: 52px;
+  height: 30px;
+  padding: 30px;
   top: 33px;
   text-align: center;
   background-color: rgb(255, 70, 70);
@@ -704,8 +703,8 @@ header .textdiv1 h3 {
   border-radius: 50px;
   position: relative;
   width: 211px;
-  height: 52px;
-  top: 33px;
+  height: 30px;
+  padding: 30px;
   text-align: center;
   background-color: rgb(255, 70, 70);
 }
