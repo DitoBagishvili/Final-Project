@@ -6,11 +6,9 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     
-    .container{
-        width: 100%;
         
     
-        nav{
+        .hnav{
             width: 100%;
             position: fixed;
             display: flex;
@@ -19,17 +17,17 @@ header{
             z-index: 10;
             background-color: rgba(0,0,0, .5);
 
-            ul{
-                max-width: 650px;
-                width: 100%;
+            .hul{
+                width: 75%;
                 height: 100%;
                 display: flex;
                 justify-content: space-between;
-                li{
+                .hli{
                     a{
                         font-family: $myfont1;
                         font-size: 18px;
                         color: white;
+                        text-align: center;
 
                     }
                 }
@@ -40,7 +38,7 @@ header{
                 height: 30px;
                 width: 120px;
             }
-        }
+        
         
     }
     .textdiv{
@@ -155,7 +153,7 @@ header{
 .s-2{
     height: 700px;
     
-    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 11.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
+    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 13.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
     ;
     background-repeat: no-repeat;
     background-position: center;
@@ -224,7 +222,7 @@ header{
 .s-3{
     height: 700px;
     
-    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 11.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
+    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 13.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
     ;
     background-repeat: no-repeat;
     background-position: center;
@@ -288,7 +286,7 @@ header{
 .s-4{
     height: 700px;
     
-    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 11.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
+    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 13.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
     ;
     background-repeat: no-repeat;
     background-position: center;
@@ -353,7 +351,7 @@ header{
 .s-5{
     height: 700px;
     
-    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 11.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
+    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 13.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
     ;
     background-repeat: no-repeat;
     background-position: center;
@@ -421,7 +419,7 @@ header{
 .s-6{
     height: 700px;
     
-    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 11.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
+    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 13.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
     ;
     background-repeat: no-repeat;
     background-position: center;
@@ -487,7 +485,7 @@ header{
 .s-7{
     height: 700px;
     
-    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 11.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
+    background-image: url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 13.png), url(../images/Rectangle\ 12.png), url(../images/Rectangle\ 14.png), url(../images/Rectangle\ 14.png) ;
     ;
     background-repeat: no-repeat;
     background-position: center;
@@ -549,7 +547,6 @@ header{
 
 
 .s-8{
-        height: 1100px;
         .bigbox{
             max-width: 1200px;
             width: 100%;
@@ -563,6 +560,7 @@ header{
         .smallbox1{
             max-width: 500px;
             width:100%;
+            margin-bottom: 50px;
             h3{
                 font-family: $myfont1;
                 font-size: 50px;
@@ -580,6 +578,7 @@ header{
             height: 780px;
             display: flex;
             justify-content: space-between;
+            margin-bottom: 50px;
             .imgbox{
                 max-width: 400px;
                 width: 100%;
@@ -654,6 +653,7 @@ header{
     max-width: 1440px;
     width: 100%;
     height: 1000px;
+    margin: auto;
     .bigdiv{
         max-width: 1050px;
         height: 100%;
@@ -683,7 +683,7 @@ header{
             display: flex;
 
             .smallbox1{
-                width: 500px;
+                width: 480px;
                 display: flex;
                 margin-right: 50px;
                 .textbox1{
@@ -696,7 +696,7 @@ header{
                 }
             }
             .smallbox2{
-                width: 500px;
+                width: 480px;
                 display: flex;
                 .textbox2{
                     width: 300px;
@@ -725,7 +725,7 @@ header{
 
 footer{
     
-    nav{
+    .ftnav{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -733,14 +733,14 @@ footer{
         img{
             margin-top: 35px;
         }
-        ul{
+        .ftul{
             max-width: 650px;
             width: 100%;
             height: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             margin-top: 35px;
-            li{
+            .ftli{
                 h6{
                     font-family: $myfont1;
                     font-size: 18px;

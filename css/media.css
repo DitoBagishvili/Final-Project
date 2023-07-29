@@ -25,4 +25,22 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    i{
+        display: inline-block;
+    }
+
+
+
+    .hli{
+        display: none;
+    }
+    .hul{
+        display: none;
+    }
+    .hnav{
+        width: 90%;
+    }
 }
+
+
+
