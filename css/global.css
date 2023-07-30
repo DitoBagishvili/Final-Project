@@ -985,4 +985,246 @@ footer .ftnav .ftul .ftli h6 {
   font-size: 18px;
   color: white;
   text-align: center;
-}/*# sourceMappingURL=global.css.map */
+}
+
+/* PAGE 2 HEADER END */
+.ps-1 {
+  max-width: 1300px;
+  margin: auto;
+}
+.ps-1 .pdiv1 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.ps-1 .pdiv1 h3 {
+  font-size: 35px;
+}
+.ps-1 .pdiv2 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+.ps-1 .pdiv2 h3 {
+  font-size: 30px;
+}
+.ps-1 .infobox0 {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  margin: auto;
+}
+.ps-1 .infobox0 p {
+  line-height: 22px;
+}
+.ps-1 .imgdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 150px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.ps-1 .imgdiv img {
+  padding: 10px;
+}
+
+/*PAGE 2 SECTION 1 END */
+.ps-2 {
+  max-width: 1300px;
+  margin: auto;
+}
+.ps-2 .pdiv1 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.ps-2 .pdiv1 h3 {
+  font-size: 35px;
+}
+.ps-2 .pdiv2 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+.ps-2 .pdiv2 h3 {
+  font-size: 30px;
+}
+.ps-2 .infobox0 {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  margin: auto;
+}
+.ps-2 .infobox0 p {
+  line-height: 22px;
+}
+.ps-2 .infobox0 h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+.ps-2 .imgdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 150px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.ps-2 .imgdiv img {
+  padding: 10px;
+}
+
+/* PAGE 2 SECTION 2 END */
+.ps-3 {
+  max-width: 1300px;
+  margin: auto;
+}
+.ps-3 .pdiv1 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.ps-3 .pdiv1 h3 {
+  font-size: 35px;
+}
+.ps-3 .pdiv2 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+.ps-3 .pdiv2 h3 {
+  font-size: 30px;
+}
+.ps-3 .infobox0 {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  margin: auto;
+}
+.ps-3 .infobox0 p {
+  line-height: 22px;
+}
+.ps-3 .infobox0 h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+.ps-3 .imgdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 150px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.ps-3 .imgdiv img {
+  padding: 10px;
+}
+
+/* PAGE 2 SECTION 3 END */
+.ps-4 {
+  max-width: 1300px;
+  margin: auto;
+}
+.ps-4 .pdiv1 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.ps-4 .pdiv1 h3 {
+  font-size: 35px;
+}
+.ps-4 .pdiv2 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+.ps-4 .pdiv2 h3 {
+  font-size: 30px;
+}
+.ps-4 .infobox0 {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  margin: auto;
+}
+.ps-4 .infobox0 p {
+  line-height: 22px;
+}
+.ps-4 .infobox0 h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+.ps-4 .imgdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 150px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.ps-4 .imgdiv img {
+  padding: 10px;
+}
+
+/* PAGE 2 SECTION 4 END *//*# sourceMappingURL=global.css.map */

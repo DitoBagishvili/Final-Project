@@ -1,4 +1,7 @@
 
+
+
+
 @media (max-width: 1000px) {
     .maindiv{
         flex-direction: column;
@@ -25,12 +28,13 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    i{
-        display: inline-block;
-    }
 
 
 
+    
+}
+
+@media  (max-width: 800px){
     .hli{
         display: none;
     }
@@ -40,8 +44,38 @@
     .hnav{
         width: 90%;
     }
+    .fa-bars{
+        display: inline-block;
+    }
+    
+}
+
+
+@media (max-width:700px) {
+    .pdiv2 h3{
+        position: relative;
+        left: -130px;
+    }
+    .pli{
+        display: none;
+    }
+    .pul{
+        display: none;
+    }
+    .fa-bars{
+        display: inline-block;
+    }
+    
 }
 
 
 
-
+@media (max-width: 600px){
+    .imgdiv{
+        flex-direction: column;
+        
+    }
+    .ps-1{
+        width: 100%;
+    }
+}
