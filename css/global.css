@@ -1031,9 +1031,9 @@ footer .ftnav .ftul .ftli h6 {
   position: relative;
   top: 150px;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1092,9 +1092,9 @@ footer .ftnav .ftul .ftli h6 {
   position: relative;
   top: 150px;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1153,9 +1153,9 @@ footer .ftnav .ftul .ftli h6 {
   position: relative;
   top: 150px;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1214,9 +1214,9 @@ footer .ftnav .ftul .ftli h6 {
   position: relative;
   top: 150px;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1275,9 +1275,9 @@ footer .ftnav .ftul .ftli h6 {
   position: relative;
   top: 150px;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1336,9 +1336,9 @@ footer .ftnav .ftul .ftli h6 {
   position: relative;
   top: 150px;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1367,7 +1367,7 @@ footer .ftnav .ftul .ftli h6 {
 }
 .ps-7 .pdiv2 {
   padding: 10px;
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
   position: relative;
   top: 150px;
@@ -1397,9 +1397,9 @@ footer .ftnav .ftul .ftli h6 {
   position: relative;
   top: 150px;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1410,4 +1410,65 @@ footer .ftnav .ftul .ftli h6 {
   padding: 10px;
 }
 
-/* PAGE 2 SECTION 7 END *//*# sourceMappingURL=global.css.map */
+/* PAGE 2 SECTION 7 END */
+.ps-8 {
+  max-width: 1300px;
+  margin: auto;
+}
+.ps-8 .pdiv1 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.ps-8 .pdiv1 h3 {
+  font-size: 35px;
+}
+.ps-8 .pdiv2 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+.ps-8 .pdiv2 h3 {
+  font-size: 30px;
+}
+.ps-8 .infobox0 {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  margin: auto;
+}
+.ps-8 .infobox0 p {
+  line-height: 22px;
+}
+.ps-8 .infobox0 h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+.ps-8 .imgdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 150px;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.ps-8 .imgdiv img {
+  padding: 10px;
+}
+
+/* PAGE 2 SECTION 8 END *//*# sourceMappingURL=global.css.map */
