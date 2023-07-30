@@ -1227,4 +1227,187 @@ footer .ftnav .ftul .ftli h6 {
   padding: 10px;
 }
 
-/* PAGE 2 SECTION 4 END *//*# sourceMappingURL=global.css.map */
+/* PAGE 2 SECTION 4 END */
+.ps-5 {
+  max-width: 1300px;
+  margin: auto;
+}
+.ps-5 .pdiv1 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.ps-5 .pdiv1 h3 {
+  font-size: 35px;
+}
+.ps-5 .pdiv2 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+.ps-5 .pdiv2 h3 {
+  font-size: 30px;
+}
+.ps-5 .infobox0 {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  margin: auto;
+}
+.ps-5 .infobox0 p {
+  line-height: 22px;
+}
+.ps-5 .infobox0 h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+.ps-5 .imgdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 150px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.ps-5 .imgdiv img {
+  padding: 10px;
+}
+
+/* PAGE 2 SECTION 5 END */
+.ps-6 {
+  max-width: 1300px;
+  margin: auto;
+}
+.ps-6 .pdiv1 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.ps-6 .pdiv1 h3 {
+  font-size: 35px;
+}
+.ps-6 .pdiv2 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+.ps-6 .pdiv2 h3 {
+  font-size: 30px;
+}
+.ps-6 .infobox0 {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  margin: auto;
+}
+.ps-6 .infobox0 p {
+  line-height: 22px;
+}
+.ps-6 .infobox0 h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+.ps-6 .imgdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 150px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.ps-6 .imgdiv img {
+  padding: 10px;
+}
+
+/* PAGE 2 SECTION 6 END */
+.ps-7 {
+  max-width: 1300px;
+  margin: auto;
+}
+.ps-7 .pdiv1 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+}
+.ps-7 .pdiv1 h3 {
+  font-size: 35px;
+}
+.ps-7 .pdiv2 {
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+.ps-7 .pdiv2 h3 {
+  font-size: 30px;
+}
+.ps-7 .infobox0 {
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  margin: auto;
+}
+.ps-7 .infobox0 p {
+  line-height: 22px;
+}
+.ps-7 .infobox0 h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+.ps-7 .imgdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 150px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.ps-7 .imgdiv img {
+  padding: 10px;
+}
+
+/* PAGE 2 SECTION 7 END *//*# sourceMappingURL=global.css.map */
