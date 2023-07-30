@@ -1471,4 +1471,40 @@ footer .ftnav .ftul .ftli h6 {
   padding: 10px;
 }
 
-/* PAGE 2 SECTION 8 END *//*# sourceMappingURL=global.css.map */
+/* PAGE 2 SECTION 8 END */
+footer {
+  position: relative;
+  top: 250px;
+}
+footer .pftnav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .pftnav img {
+  margin-top: 35px;
+}
+footer .pftnav .pftul {
+  max-width: 650px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 35px;
+}
+footer .pftnav .pftul .pftli h6 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+}/*# sourceMappingURL=global.css.map */
