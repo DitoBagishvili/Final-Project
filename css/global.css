@@ -830,7 +830,7 @@ a {
           align-items: center;
 }
 .s-8 .bigbox .smallbox2 .imgbox .img1 {
-  width: 90%;
+  width: 315px;
   height: 200px;
   border-radius: 10px;
 }
@@ -863,6 +863,11 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 1050px) {
+  .s-8 .bigbox .smallbox2 .imgbox2 {
+    height: 500px;
+  }
+}
 .s-8 .bigbox .smallbox2 .imgbox2 .img3 {
   width: 90%;
   height: 200px;
@@ -872,6 +877,11 @@ a {
   width: 70%;
   height: 250px;
   border-radius: 10px;
+}
+@media (max-width: 1050px) {
+  .s-8 .bigbox .smallbox2 .imgbox2 .logoimg {
+    display: none;
+  }
 }
 .s-8 .bigbox .smallbox2 .imgbox3 {
   max-width: 350px;
@@ -911,8 +921,14 @@ a {
 .s-9 {
   max-width: 1440px;
   width: 100%;
-  height: 1000px;
+  height: 900px;
   margin: auto;
+}
+@media (max-width: 600px) {
+  .s-9 {
+    height: 800px;
+    margin-bottom: 200px;
+  }
 }
 .s-9 .bigdiv {
   max-width: 1050px;
@@ -939,11 +955,12 @@ a {
   font-size: 35px;
   line-height: 50px;
   text-align: center;
+  padding: 0 10px;
 }
 .s-9 .bigdiv .videobox {
-  max-width: 850px;
+  max-width: 800px;
   width: 100%;
-  height: 480px;
+  padding: 0 10px;
 }
 .s-9 .bigdiv .medium {
   display: -webkit-box;
@@ -1084,17 +1101,29 @@ footer .ftnav .ftul .ftli a {
 /* PAGE 2 STARTS HERE */
 .head2 .pnav {
   width: 100%;
+  padding: 0 30px;
   position: fixed;
+  top: 0;
+  left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.5);
+}
+.head2 .pnav .fa-bars {
+  display: none;
+}
+@media (max-width: 800px) {
+  .head2 .pnav .fa-bars {
+    display: inline-block;
+  }
 }
 .head2 .pnav .pul {
   width: 75%;
@@ -1106,6 +1135,11 @@ footer .ftnav .ftul .ftli a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media (max-width: 800px) {
+  .head2 .pnav .pul {
+    display: none;
+  }
+}
 .head2 .pnav .pul .pli a {
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
@@ -1114,17 +1148,20 @@ footer .ftnav .ftul .ftli a {
 }
 
 /* PAGE 2 HEADER END */
+.s0 {
+  height: 100px;
+}
+
 .ps-1 {
   max-width: 1300px;
+  width: 100%;
   margin: auto;
 }
 .ps-1 .pdiv1 {
-  padding: 10px;
   max-width: 400px;
   width: 100%;
   margin: auto;
-  position: relative;
-  top: 100px;
+  padding: 10px;
 }
 .ps-1 .pdiv1 h3 {
   font-size: 35px;
@@ -1133,9 +1170,6 @@ footer .ftnav .ftul .ftli a {
   padding: 10px;
   max-width: 400px;
   width: 100%;
-  position: relative;
-  top: 150px;
-  left: 150px;
 }
 .ps-1 .pdiv2 h3 {
   font-size: 30px;
@@ -1143,8 +1177,6 @@ footer .ftnav .ftul .ftli a {
 .ps-1 .infobox0 {
   padding: 20px;
   width: 100%;
-  position: relative;
-  top: 150px;
   margin: auto;
 }
 .ps-1 .infobox0 p {
@@ -1154,8 +1186,6 @@ footer .ftnav .ftul .ftli a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 150px;
   width: 100%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -1173,6 +1203,7 @@ footer .ftnav .ftul .ftli a {
 /*PAGE 2 SECTION 1 END */
 .ps-2 {
   max-width: 1300px;
+  width: 100%;
   margin: auto;
 }
 .ps-2 .pdiv1 {
@@ -1180,8 +1211,6 @@ footer .ftnav .ftul .ftli a {
   max-width: 400px;
   width: 100%;
   margin: auto;
-  position: relative;
-  top: 100px;
 }
 .ps-2 .pdiv1 h3 {
   font-size: 35px;
@@ -1190,9 +1219,6 @@ footer .ftnav .ftul .ftli a {
   padding: 10px;
   max-width: 400px;
   width: 100%;
-  position: relative;
-  top: 150px;
-  left: 150px;
 }
 .ps-2 .pdiv2 h3 {
   font-size: 30px;
@@ -1200,8 +1226,6 @@ footer .ftnav .ftul .ftli a {
 .ps-2 .infobox0 {
   padding: 20px;
   width: 100%;
-  position: relative;
-  top: 150px;
   margin: auto;
 }
 .ps-2 .infobox0 p {
@@ -1215,8 +1239,6 @@ footer .ftnav .ftul .ftli a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 150px;
   width: 100%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -1234,6 +1256,7 @@ footer .ftnav .ftul .ftli a {
 /* PAGE 2 SECTION 2 END */
 .ps-3 {
   max-width: 1300px;
+  width: 100%;
   margin: auto;
 }
 .ps-3 .pdiv1 {
@@ -1241,8 +1264,6 @@ footer .ftnav .ftul .ftli a {
   max-width: 400px;
   width: 100%;
   margin: auto;
-  position: relative;
-  top: 100px;
 }
 .ps-3 .pdiv1 h3 {
   font-size: 35px;
@@ -1251,9 +1272,6 @@ footer .ftnav .ftul .ftli a {
   padding: 10px;
   max-width: 400px;
   width: 100%;
-  position: relative;
-  top: 150px;
-  left: 150px;
 }
 .ps-3 .pdiv2 h3 {
   font-size: 30px;
@@ -1261,8 +1279,6 @@ footer .ftnav .ftul .ftli a {
 .ps-3 .infobox0 {
   padding: 20px;
   width: 100%;
-  position: relative;
-  top: 150px;
   margin: auto;
 }
 .ps-3 .infobox0 p {
@@ -1276,8 +1292,6 @@ footer .ftnav .ftul .ftli a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 150px;
   width: 100%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -1295,6 +1309,7 @@ footer .ftnav .ftul .ftli a {
 /* PAGE 2 SECTION 3 END */
 .ps-4 {
   max-width: 1300px;
+  width: 100%;
   margin: auto;
 }
 .ps-4 .pdiv1 {
@@ -1302,8 +1317,6 @@ footer .ftnav .ftul .ftli a {
   max-width: 400px;
   width: 100%;
   margin: auto;
-  position: relative;
-  top: 100px;
 }
 .ps-4 .pdiv1 h3 {
   font-size: 35px;
@@ -1312,9 +1325,6 @@ footer .ftnav .ftul .ftli a {
   padding: 10px;
   max-width: 400px;
   width: 100%;
-  position: relative;
-  top: 150px;
-  left: 150px;
 }
 .ps-4 .pdiv2 h3 {
   font-size: 30px;
@@ -1322,8 +1332,6 @@ footer .ftnav .ftul .ftli a {
 .ps-4 .infobox0 {
   padding: 20px;
   width: 100%;
-  position: relative;
-  top: 150px;
   margin: auto;
 }
 .ps-4 .infobox0 p {
@@ -1337,8 +1345,6 @@ footer .ftnav .ftul .ftli a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 150px;
   width: 100%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -1356,6 +1362,7 @@ footer .ftnav .ftul .ftli a {
 /* PAGE 2 SECTION 4 END */
 .ps-5 {
   max-width: 1300px;
+  width: 100%;
   margin: auto;
 }
 .ps-5 .pdiv1 {
@@ -1363,8 +1370,6 @@ footer .ftnav .ftul .ftli a {
   max-width: 400px;
   width: 100%;
   margin: auto;
-  position: relative;
-  top: 100px;
 }
 .ps-5 .pdiv1 h3 {
   font-size: 35px;
@@ -1373,9 +1378,6 @@ footer .ftnav .ftul .ftli a {
   padding: 10px;
   max-width: 400px;
   width: 100%;
-  position: relative;
-  top: 150px;
-  left: 150px;
 }
 .ps-5 .pdiv2 h3 {
   font-size: 30px;
@@ -1383,8 +1385,6 @@ footer .ftnav .ftul .ftli a {
 .ps-5 .infobox0 {
   padding: 20px;
   width: 100%;
-  position: relative;
-  top: 150px;
   margin: auto;
 }
 .ps-5 .infobox0 p {
@@ -1398,8 +1398,6 @@ footer .ftnav .ftul .ftli a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 150px;
   width: 100%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -1417,6 +1415,7 @@ footer .ftnav .ftul .ftli a {
 /* PAGE 2 SECTION 5 END */
 .ps-6 {
   max-width: 1300px;
+  width: 100%;
   margin: auto;
 }
 .ps-6 .pdiv1 {
@@ -1424,8 +1423,6 @@ footer .ftnav .ftul .ftli a {
   max-width: 400px;
   width: 100%;
   margin: auto;
-  position: relative;
-  top: 100px;
 }
 .ps-6 .pdiv1 h3 {
   font-size: 35px;
@@ -1434,9 +1431,6 @@ footer .ftnav .ftul .ftli a {
   padding: 10px;
   max-width: 400px;
   width: 100%;
-  position: relative;
-  top: 150px;
-  left: 150px;
 }
 .ps-6 .pdiv2 h3 {
   font-size: 30px;
@@ -1444,8 +1438,6 @@ footer .ftnav .ftul .ftli a {
 .ps-6 .infobox0 {
   padding: 20px;
   width: 100%;
-  position: relative;
-  top: 150px;
   margin: auto;
 }
 .ps-6 .infobox0 p {
@@ -1459,8 +1451,6 @@ footer .ftnav .ftul .ftli a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 150px;
   width: 100%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -1478,6 +1468,7 @@ footer .ftnav .ftul .ftli a {
 /* PAGE 2 SECTION 6 END */
 .ps-7 {
   max-width: 1300px;
+  width: 100%;
   margin: auto;
 }
 .ps-7 .pdiv1 {
@@ -1485,8 +1476,6 @@ footer .ftnav .ftul .ftli a {
   max-width: 400px;
   width: 100%;
   margin: auto;
-  position: relative;
-  top: 100px;
 }
 .ps-7 .pdiv1 h3 {
   font-size: 35px;
@@ -1495,9 +1484,6 @@ footer .ftnav .ftul .ftli a {
   padding: 10px;
   max-width: 600px;
   width: 100%;
-  position: relative;
-  top: 150px;
-  left: 150px;
 }
 .ps-7 .pdiv2 h3 {
   font-size: 30px;
@@ -1505,8 +1491,6 @@ footer .ftnav .ftul .ftli a {
 .ps-7 .infobox0 {
   padding: 20px;
   width: 100%;
-  position: relative;
-  top: 150px;
   margin: auto;
 }
 .ps-7 .infobox0 p {
@@ -1520,8 +1504,6 @@ footer .ftnav .ftul .ftli a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 150px;
   width: 100%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -1539,6 +1521,7 @@ footer .ftnav .ftul .ftli a {
 /* PAGE 2 SECTION 7 END */
 .ps-8 {
   max-width: 1300px;
+  width: 100%;
   margin: auto;
 }
 .ps-8 .pdiv1 {
@@ -1546,8 +1529,6 @@ footer .ftnav .ftul .ftli a {
   max-width: 400px;
   width: 100%;
   margin: auto;
-  position: relative;
-  top: 100px;
 }
 .ps-8 .pdiv1 h3 {
   font-size: 35px;
@@ -1556,9 +1537,6 @@ footer .ftnav .ftul .ftli a {
   padding: 10px;
   max-width: 400px;
   width: 100%;
-  position: relative;
-  top: 150px;
-  left: 150px;
 }
 .ps-8 .pdiv2 h3 {
   font-size: 30px;
@@ -1566,8 +1544,6 @@ footer .ftnav .ftul .ftli a {
 .ps-8 .infobox0 {
   padding: 20px;
   width: 100%;
-  position: relative;
-  top: 150px;
   margin: auto;
 }
 .ps-8 .infobox0 p {
@@ -1581,8 +1557,6 @@ footer .ftnav .ftul .ftli a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 150px;
   width: 100%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -1597,40 +1571,4 @@ footer .ftnav .ftul .ftli a {
   padding: 10px;
 }
 
-/* PAGE 2 SECTION 8 END */
-footer {
-  position: relative;
-  top: 250px;
-}
-footer .pftnav {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-footer .pftnav img {
-  margin-top: 35px;
-}
-footer .pftnav .pftul {
-  max-width: 650px;
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-top: 35px;
-}
-footer .pftnav .pftul .pftli h6 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 18px;
-  color: white;
-}/*# sourceMappingURL=global.css.map */
+/* PAGE 2 SECTION 8 END *//*# sourceMappingURL=global.css.map */

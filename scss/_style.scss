@@ -557,7 +557,7 @@
                 justify-content: space-between;
                 align-items: center;
                 .img1 {
-                    width: 90%;
+                    width: 315px;
                     height: 200px;
                     border-radius: 10px;
                 }
@@ -581,6 +581,9 @@
                 flex-direction: column;
                 justify-content: space-evenly;
                 align-items: center;
+                @media (max-width: 1050px) {
+                    height: 500px;
+                }
                 .img3 {
                     width: 90%;
                     height: 200px;
@@ -590,6 +593,11 @@
                     width: 70%;
                     height: 250px;
                     border-radius: 10px;
+                }
+                .logoimg{
+                    @media (max-width: 1050px) {
+                        display: none;
+                    }
                 }
             }
             .imgbox3 {
@@ -626,8 +634,12 @@
 .s-9 {
     max-width: 1440px;
     width: 100%;
-    height: 1000px;
+    height: 900px;
     margin: auto;
+    @media (max-width: 600px) {
+        height: 800px;
+        margin-bottom: 200px;
+    }
     .bigdiv {
         max-width: 1050px;
         height: 100%;
@@ -644,11 +656,12 @@
             font-size: 35px;
             line-height: 50px;
             text-align: center;
+            padding: 0 10px;
         }
         .videobox {
-            max-width: 850px;
+            max-width: 800px;
             width: 100%;
-            height: 480px;
+            padding: 0 10px;
         }
         .medium {
             display: flex;
@@ -756,18 +769,32 @@ footer {
 .head2 {
     .pnav {
         width: 100%;
-        position: fixed;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        z-index: 10;
-        background-color: rgba(0, 0, 0, 0.5);
-
+            padding: 0 30px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.5);
+        
+           
+        
+        .fa-bars {
+            display: none;
+            @media (max-width: 800px) {
+                display: inline-block;
+            }
+        }
         .pul {
             width: 75%;
             height: 100%;
             display: flex;
             justify-content: space-between;
+            @media (max-width: 800px) {
+                display: none;
+            }
             .pli {
                 a {
                     font-family: $myfont1;
@@ -781,17 +808,19 @@ footer {
 }
 
 /* PAGE 2 HEADER END */
+.s0{
+    height: 100px;
+}
 
 .ps-1 {
     max-width: 1300px;
+    width: 100%;
     margin: auto;
     .pdiv1 {
-        padding: 10px;
         max-width: 400px;
         width: 100%;
         margin: auto;
-        position: relative;
-        top: 100px;
+        padding: 10px;
         h3 {
             font-size: 35px;
         }
@@ -800,9 +829,6 @@ footer {
         padding: 10px;
         max-width: 400px;
         width: 100%;
-        position: relative;
-        top: 150px;
-        left: 150px;
         h3 {
             font-size: 30px;
         }
@@ -810,8 +836,6 @@ footer {
     .infobox0 {
         padding: 20px;
         width: 100%;
-        position: relative;
-        top: 150px;
         margin: auto;
         p {
             line-height: 22px;
@@ -819,8 +843,6 @@ footer {
     }
     .imgdiv {
         display: flex;
-        position: relative;
-        top: 150px;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
@@ -835,14 +857,13 @@ footer {
 
 .ps-2 {
     max-width: 1300px;
+    width: 100%;
     margin: auto;
     .pdiv1 {
         padding: 10px;
         max-width: 400px;
         width: 100%;
         margin: auto;
-        position: relative;
-        top: 100px;
         h3 {
             font-size: 35px;
         }
@@ -851,9 +872,6 @@ footer {
         padding: 10px;
         max-width: 400px;
         width: 100%;
-        position: relative;
-        top: 150px;
-        left: 150px;
         h3 {
             font-size: 30px;
         }
@@ -861,8 +879,6 @@ footer {
     .infobox0 {
         padding: 20px;
         width: 100%;
-        position: relative;
-        top: 150px;
         margin: auto;
         p {
             line-height: 22px;
@@ -874,8 +890,6 @@ footer {
     }
     .imgdiv {
         display: flex;
-        position: relative;
-        top: 150px;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
@@ -890,14 +904,13 @@ footer {
 
 .ps-3 {
     max-width: 1300px;
+    width: 100%;
     margin: auto;
     .pdiv1 {
         padding: 10px;
         max-width: 400px;
         width: 100%;
         margin: auto;
-        position: relative;
-        top: 100px;
         h3 {
             font-size: 35px;
         }
@@ -906,9 +919,6 @@ footer {
         padding: 10px;
         max-width: 400px;
         width: 100%;
-        position: relative;
-        top: 150px;
-        left: 150px;
         h3 {
             font-size: 30px;
         }
@@ -916,8 +926,6 @@ footer {
     .infobox0 {
         padding: 20px;
         width: 100%;
-        position: relative;
-        top: 150px;
         margin: auto;
         p {
             line-height: 22px;
@@ -929,8 +937,6 @@ footer {
     }
     .imgdiv {
         display: flex;
-        position: relative;
-        top: 150px;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
@@ -945,14 +951,13 @@ footer {
 
 .ps-4 {
     max-width: 1300px;
+    width: 100%;
     margin: auto;
     .pdiv1 {
         padding: 10px;
         max-width: 400px;
         width: 100%;
         margin: auto;
-        position: relative;
-        top: 100px;
         h3 {
             font-size: 35px;
         }
@@ -961,9 +966,6 @@ footer {
         padding: 10px;
         max-width: 400px;
         width: 100%;
-        position: relative;
-        top: 150px;
-        left: 150px;
         h3 {
             font-size: 30px;
         }
@@ -971,8 +973,6 @@ footer {
     .infobox0 {
         padding: 20px;
         width: 100%;
-        position: relative;
-        top: 150px;
         margin: auto;
         p {
             line-height: 22px;
@@ -984,8 +984,6 @@ footer {
     }
     .imgdiv {
         display: flex;
-        position: relative;
-        top: 150px;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
@@ -1000,14 +998,13 @@ footer {
 
 .ps-5 {
     max-width: 1300px;
+    width: 100%;
     margin: auto;
     .pdiv1 {
         padding: 10px;
         max-width: 400px;
         width: 100%;
         margin: auto;
-        position: relative;
-        top: 100px;
         h3 {
             font-size: 35px;
         }
@@ -1016,9 +1013,6 @@ footer {
         padding: 10px;
         max-width: 400px;
         width: 100%;
-        position: relative;
-        top: 150px;
-        left: 150px;
         h3 {
             font-size: 30px;
         }
@@ -1026,8 +1020,6 @@ footer {
     .infobox0 {
         padding: 20px;
         width: 100%;
-        position: relative;
-        top: 150px;
         margin: auto;
         p {
             line-height: 22px;
@@ -1039,8 +1031,6 @@ footer {
     }
     .imgdiv {
         display: flex;
-        position: relative;
-        top: 150px;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
@@ -1055,14 +1045,13 @@ footer {
 
 .ps-6 {
     max-width: 1300px;
+    width: 100%;
     margin: auto;
     .pdiv1 {
         padding: 10px;
         max-width: 400px;
         width: 100%;
         margin: auto;
-        position: relative;
-        top: 100px;
         h3 {
             font-size: 35px;
         }
@@ -1071,9 +1060,6 @@ footer {
         padding: 10px;
         max-width: 400px;
         width: 100%;
-        position: relative;
-        top: 150px;
-        left: 150px;
         h3 {
             font-size: 30px;
         }
@@ -1081,8 +1067,6 @@ footer {
     .infobox0 {
         padding: 20px;
         width: 100%;
-        position: relative;
-        top: 150px;
         margin: auto;
         p {
             line-height: 22px;
@@ -1094,8 +1078,6 @@ footer {
     }
     .imgdiv {
         display: flex;
-        position: relative;
-        top: 150px;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
@@ -1110,14 +1092,13 @@ footer {
 
 .ps-7 {
     max-width: 1300px;
+    width: 100%;
     margin: auto;
     .pdiv1 {
         padding: 10px;
         max-width: 400px;
         width: 100%;
         margin: auto;
-        position: relative;
-        top: 100px;
         h3 {
             font-size: 35px;
         }
@@ -1126,9 +1107,6 @@ footer {
         padding: 10px;
         max-width: 600px;
         width: 100%;
-        position: relative;
-        top: 150px;
-        left: 150px;
         h3 {
             font-size: 30px;
         }
@@ -1136,8 +1114,6 @@ footer {
     .infobox0 {
         padding: 20px;
         width: 100%;
-        position: relative;
-        top: 150px;
         margin: auto;
         p {
             line-height: 22px;
@@ -1149,8 +1125,6 @@ footer {
     }
     .imgdiv {
         display: flex;
-        position: relative;
-        top: 150px;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
@@ -1165,14 +1139,13 @@ footer {
 
 .ps-8 {
     max-width: 1300px;
+    width: 100%;
     margin: auto;
     .pdiv1 {
         padding: 10px;
         max-width: 400px;
         width: 100%;
         margin: auto;
-        position: relative;
-        top: 100px;
         h3 {
             font-size: 35px;
         }
@@ -1181,9 +1154,6 @@ footer {
         padding: 10px;
         max-width: 400px;
         width: 100%;
-        position: relative;
-        top: 150px;
-        left: 150px;
         h3 {
             font-size: 30px;
         }
@@ -1191,8 +1161,6 @@ footer {
     .infobox0 {
         padding: 20px;
         width: 100%;
-        position: relative;
-        top: 150px;
         margin: auto;
         p {
             line-height: 22px;
@@ -1204,8 +1172,6 @@ footer {
     }
     .imgdiv {
         display: flex;
-        position: relative;
-        top: 150px;
         width: 100%;
         justify-content: space-evenly;
         align-items: center;
@@ -1218,33 +1184,3 @@ footer {
 
 /* PAGE 2 SECTION 8 END */
 
-footer {
-    position: relative;
-    top: 250px;
-
-    .pftnav {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-
-        img {
-            margin-top: 35px;
-        }
-        .pftul {
-            max-width: 650px;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: space-evenly;
-            margin-top: 35px;
-            .pftli {
-                h6 {
-                    font-family: $myfont1;
-                    font-size: 18px;
-                    color: white;
-                }
-            }
-        }
-    }
-}

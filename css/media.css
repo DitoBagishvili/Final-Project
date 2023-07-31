@@ -28,10 +28,6 @@
 }
 
 @media (max-width: 700px) {
-    .pdiv2 h3 {
-        position: relative;
-        left: -130px;
-    }
     .pli {
         display: none;
     }
