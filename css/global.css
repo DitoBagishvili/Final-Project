@@ -1014,7 +1014,6 @@ a {
   }
 }
 .s-9 .bigdiv .medium .smallbox2 .textbox2 {
-  width: 300px;
   max-width: 300px;
   width: 100%;
 }
@@ -1042,12 +1041,15 @@ footer .ftnav {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 footer .ftnav img {
-  margin-top: 35px;
+  text-align: center;
 }
 footer .ftnav .ftul {
   max-width: 650px;
@@ -1059,9 +1061,20 @@ footer .ftnav .ftul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-top: 35px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
 }
-footer .ftnav .ftul .ftli h6 {
+@media (max-width: 650px) {
+  footer .ftnav .ftul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 200px;
+  }
+}
+footer .ftnav .ftul .ftli a {
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
   color: white;
