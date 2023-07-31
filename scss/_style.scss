@@ -63,6 +63,11 @@
                 font-weight: 900;
                 line-height: 100px;
                 color: white;
+                
+                @media (max-width: 600px) {
+                    font-size: 45px;
+                    padding: 10px;
+                }
             }
         }
         .textdiv1 {
@@ -412,7 +417,7 @@
             h3 {
                 color: white;
                 font-family: $myfont1;
-                font-size: 35px;
+                font-size: 32px;
                 line-height: 50px;
             }
             p {
@@ -556,6 +561,12 @@
                     height: 200px;
                     border-radius: 10px;
                 }
+                .img-1{
+                    @media (max-width: 1050px) {
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                }
+            }
                 .img2 {
                     width: 90%;
                     height: 200px;
@@ -592,6 +603,13 @@
                     width: 90%;
                     height: 200px;
                     border-radius: 10px;
+                }
+                .img-0{
+                    @media (max-width: 1050px) {
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        
+                    }
                 }
                 .img6 {
                     width: 90%;
@@ -636,8 +654,11 @@
             display: flex;
 
             .smallbox1 {
-                width: 480px;
+                max-width: 520px;
+                width: 100%;
+                padding: 10px;
                 display: flex;
+                justify-content: space-between;
                 margin-right: 50px;
                 @media (max-width: 600px) {
                     flex-direction: column;
@@ -645,8 +666,8 @@
                     margin-bottom: 20px;
                 }
                 .textbox1 {
-                    margin-left: 20px;
-                    width: 300px;
+                    max-width: 300px;
+                    width: 100%;
                     @media (max-width: 600px) {
                         margin-top: 10px;
                     }
@@ -659,8 +680,11 @@
                 }
             }
             .smallbox2 {
-                width: 480px;
+                max-width:520px;
+                width: 100%;
+                padding: 10px;
                 display: flex;
+                justify-content: space-between;
                 @media (max-width: 600px) {
                     flex-direction: column;
                     align-items: center;
@@ -668,7 +692,8 @@
                 
                 .textbox2 {
                     width: 300px;
-                    margin-left: 20px;
+                    max-width: 300px;
+                    width: 100%;
                     @media (max-width: 600px) {
                         margin-top: 10px;
                     }

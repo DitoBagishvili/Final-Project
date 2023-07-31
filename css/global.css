@@ -201,6 +201,12 @@ a {
   line-height: 100px;
   color: white;
 }
+@media (max-width: 600px) {
+  .head1 .container2 .textdiv h3 {
+    font-size: 45px;
+    padding: 10px;
+  }
+}
 .head1 .container2 .textdiv1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -633,7 +639,7 @@ a {
 .s-6 .maindiv1 .textdiv4 h3 {
   color: white;
   font-family: "DM Sans", sans-serif;
-  font-size: 35px;
+  font-size: 32px;
   line-height: 50px;
 }
 .s-6 .maindiv1 .textdiv4 p {
@@ -828,6 +834,12 @@ a {
   height: 200px;
   border-radius: 10px;
 }
+@media (max-width: 1050px) {
+  .s-8 .bigbox .smallbox2 .imgbox .img-1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
 .s-8 .bigbox .smallbox2 .imgbox .img2 {
   width: 90%;
   height: 200px;
@@ -883,6 +895,12 @@ a {
   height: 200px;
   border-radius: 10px;
 }
+@media (max-width: 1050px) {
+  .s-8 .bigbox .smallbox2 .imgbox3 .img-0 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
 .s-8 .bigbox .smallbox2 .imgbox3 .img6 {
   width: 90%;
   height: 200px;
@@ -933,10 +951,15 @@ a {
   display: flex;
 }
 .s-9 .bigdiv .medium .smallbox1 {
-  width: 480px;
+  max-width: 520px;
+  width: 100%;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-right: 50px;
 }
 @media (max-width: 600px) {
@@ -952,8 +975,8 @@ a {
   }
 }
 .s-9 .bigdiv .medium .smallbox1 .textbox1 {
-  margin-left: 20px;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
 }
 @media (max-width: 600px) {
   .s-9 .bigdiv .medium .smallbox1 .textbox1 {
@@ -969,10 +992,15 @@ a {
   }
 }
 .s-9 .bigdiv .medium .smallbox2 {
-  width: 480px;
+  max-width: 520px;
+  width: 100%;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 @media (max-width: 600px) {
   .s-9 .bigdiv .medium .smallbox2 {
@@ -987,7 +1015,8 @@ a {
 }
 .s-9 .bigdiv .medium .smallbox2 .textbox2 {
   width: 300px;
-  margin-left: 20px;
+  max-width: 300px;
+  width: 100%;
 }
 @media (max-width: 600px) {
   .s-9 .bigdiv .medium .smallbox2 .textbox2 {
