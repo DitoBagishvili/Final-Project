@@ -727,11 +727,11 @@ footer {
         }
         .ftul {
 
-            max-width: 650px;
+            max-width: 850px;
             width: 100%;
             height: 100%;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             flex-wrap: wrap;
             text-align: center;
             @media(max-width:650px){
