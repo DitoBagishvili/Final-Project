@@ -1,81 +1,59 @@
-
-
-
-
 @media (max-width: 1000px) {
-    .maindiv{
+    .maindiv {
         flex-direction: column;
         height: 90%;
         justify-content: space-between;
     }
-    .maindiv1{
+    .maindiv1 {
         flex-direction: column-reverse;
         height: 90%;
         justify-content: space-between;
     }
-    .medium{
+    .medium {
         flex-direction: column;
         height: 300px;
         justify-content: space-between;
     }
-    .smallbox1{
+    .smallbox1 {
         margin-top: 20px;
     }
-    .smallbox2{
+    .smallbox2 {
         margin-bottom: 20px;
     }
-    .bigdiv h1{
+    .bigdiv h1 {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-
-
-
-    
 }
 
-@media  (max-width: 800px){
-    .hli{
+@media (max-width: 800px) {
+    .hul,
+    li {
         display: none;
     }
-    .hul{
-        display: none;
-    }
-    .hnav{
-        width: 90%;
-    }
-    .fa-bars{
-        display: inline-block;
-    }
-    
 }
 
-
-@media (max-width:700px) {
-    .pdiv2 h3{
+@media (max-width: 700px) {
+    .pdiv2 h3 {
         position: relative;
         left: -130px;
     }
-    .pli{
+    .pli {
         display: none;
     }
-    .pul{
+    .pul {
         display: none;
     }
-    .fa-bars{
+    .fa-bars {
         display: inline-block;
     }
-    
 }
 
-
-
-@media (max-width: 600px){
-    .imgdiv{
+@media (max-width: 600px) {
+    .imgdiv {
         flex-direction: column;
-        
     }
-    .ps-1{
+    .ps-1 {
         width: 100%;
     }
 }
