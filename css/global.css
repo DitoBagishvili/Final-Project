@@ -951,7 +951,7 @@ a {
   display: flex;
 }
 .s-9 .bigdiv .medium .smallbox1 {
-  max-width: 520px;
+  max-width: 500px;
   width: 100%;
   padding: 10px;
   display: -webkit-box;
@@ -977,6 +977,7 @@ a {
 .s-9 .bigdiv .medium .smallbox1 .textbox1 {
   max-width: 300px;
   width: 100%;
+  padding: 0 10px;
 }
 @media (max-width: 600px) {
   .s-9 .bigdiv .medium .smallbox1 .textbox1 {
@@ -992,7 +993,7 @@ a {
   }
 }
 .s-9 .bigdiv .medium .smallbox2 {
-  max-width: 520px;
+  max-width: 500px;
   width: 100%;
   padding: 10px;
   display: -webkit-box;
@@ -1016,6 +1017,7 @@ a {
 .s-9 .bigdiv .medium .smallbox2 .textbox2 {
   max-width: 300px;
   width: 100%;
+  padding: 0 10px;
 }
 @media (max-width: 600px) {
   .s-9 .bigdiv .medium .smallbox2 .textbox2 {
@@ -1058,9 +1060,8 @@ footer .ftnav .ftul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
@@ -1071,7 +1072,7 @@ footer .ftnav .ftul {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 200px;
+    height: 250px;
   }
 }
 footer .ftnav .ftul .ftli a {
