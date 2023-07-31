@@ -795,6 +795,17 @@ a {
             justify-content: center;
   }
 }
+@media (max-width: 1050px) {
+  .s-8 .bigbox .smallbox2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .s-8 .bigbox .smallbox2 .imgbox {
   max-width: 350px;
   width: 100%;
@@ -928,12 +939,34 @@ a {
   display: flex;
   margin-right: 50px;
 }
+@media (max-width: 600px) {
+  .s-9 .bigdiv .medium .smallbox1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+}
 .s-9 .bigdiv .medium .smallbox1 .textbox1 {
   margin-left: 20px;
   width: 300px;
 }
+@media (max-width: 600px) {
+  .s-9 .bigdiv .medium .smallbox1 .textbox1 {
+    margin-top: 10px;
+  }
+}
 .s-9 .bigdiv .medium .smallbox1 .textbox1 h2 {
   margin-bottom: 13px;
+}
+@media (max-width: 600px) {
+  .s-9 .bigdiv .medium .smallbox1 .textbox1 h2 {
+    text-align: center;
+  }
 }
 .s-9 .bigdiv .medium .smallbox2 {
   width: 480px;
@@ -941,12 +974,33 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
+@media (max-width: 600px) {
+  .s-9 .bigdiv .medium .smallbox2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 .s-9 .bigdiv .medium .smallbox2 .textbox2 {
   width: 300px;
   margin-left: 20px;
 }
+@media (max-width: 600px) {
+  .s-9 .bigdiv .medium .smallbox2 .textbox2 {
+    margin-top: 10px;
+  }
+}
 .s-9 .bigdiv .medium .smallbox2 .textbox2 h2 {
   margin-bottom: 13px;
+}
+@media (max-width: 600px) {
+  .s-9 .bigdiv .medium .smallbox2 .textbox2 h2 {
+    text-align: center;
+  }
 }
 
 /* SECTION 9 END */
