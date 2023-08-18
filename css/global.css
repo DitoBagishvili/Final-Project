@@ -1052,8 +1052,9 @@ a {
 
 /* SECTION 9 END */
 /* FOOTER START */
-footer .ftnav {
+footer .ftnav div {
   width: 100%;
+  height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1062,18 +1063,28 @@ footer .ftnav {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
-footer .ftnav img {
+@media (max-width: 1047px) {
+  footer .ftnav div {
+    height: 150px;
+    -ms-flex-line-pack: space-evenly;
+        align-content: space-evenly;
+  }
+}
+@media (max-width: 650px) {
+  footer .ftnav div {
+    height: 350px;
+  }
+}
+footer .ftnav div img {
   text-align: center;
 }
-footer .ftnav .ftul {
+footer .ftnav div .ftul {
   max-width: 850px;
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1084,7 +1095,7 @@ footer .ftnav .ftul {
   text-align: center;
 }
 @media (max-width: 650px) {
-  footer .ftnav .ftul {
+  footer .ftnav div .ftul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1092,7 +1103,7 @@ footer .ftnav .ftul {
     height: 250px;
   }
 }
-footer .ftnav .ftul .ftli a {
+footer .ftnav div .ftul .ftli a {
   font-family: "DM Sans", sans-serif;
   font-size: 18px;
   color: white;
